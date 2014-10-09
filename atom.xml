@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[A place to put that thing]]></title>
+  <link href="http://dhenry.github.io/atom.xml" rel="self"/>
+  <link href="http://dhenry.github.io/"/>
+  <updated>2014-10-08T21:12:11-07:00</updated>
+  <id>http://dhenry.github.io/</id>
+  <author>
+    <name><![CDATA[Dave]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[It's Alive!]]></title>
+    <link href="http://dhenry.github.io/blog/2014/10/08/set-up-octopress/"/>
+    <updated>2014-10-08T20:04:59-07:00</updated>
+    <id>http://dhenry.github.io/blog/2014/10/08/set-up-octopress</id>
+    <content type="html"><![CDATA[<h3>Setting up a Github pages blog with Octopress</h3>
+
+<p>Install <a href="http://git-scm.com/">git</a></p>
+
+<p>Create a <a href="https://github.com">github account</a> if you don&rsquo;t have one.</p>
+
+<p>Follow the <a href="https://pages.github.com/">instructions</a> provided by github to
+create a new repository that will automagically turn into a jekyll instance.</p>
+
+<p>Open cygwin/powershell/command prompt and check your ruby version. <code>ruby -v</code>.</p>
+
+<p>Got <code>ruby 1.9.3</code>? You&rsquo;re set.</p>
+
+<p>No ruby? <a href="http://rubyinstaller.org/downloads/">Install</a> it then.</p>
+
+<p>Some other ruby version? <a href="http://rubyinstaller.org/downloads/">Install</a> <code>ruby 1.9.3</code> and update your path
+variable to point to it. This will save you some headaches with gem compatibility
+issues.</p>
+
+<p>Follow the instructions <a href="http://octopress.org/docs/setup/">here</a> to setup Octopress.</p>
+
+<p>Follow the instructions <a href="http://octopress.org/docs/deploying/github/">here</a> to hook up your
+recently created github repository with the default octopress installation.</p>
+
+<h3>Creating posts</h3>
+
+<p>If you haven&rsquo;t done so already, try <code>rake preview</code> and hit <a href="http://localhost:4000">http://localhost:4000</a> to
+see your blog running locally.</p>
+
+<p>Not much to see yet, huh&hellip;</p>
+
+<p>To create a new post do a <code>rake new_post["Exciting new post"]</code>.</p>
+
+<p>This will generate a .markdown file placed here: <code>octopress\source\_posts</code></p>
+
+<p>Jekyll watches for changes to files within the source directory so any changes you make
+are visible after a browser refresh.</p>
+
+<p>For tips on editing the .markdown files check out these <a href="http://daringfireball.net/projects/markdown/syntax">instructions</a>.</p>
+
+<p>Once you&rsquo;re happy with your changes then commit and <code>git push origin source</code> to publish your content to Github pages.</p>
+]]></content>
+  </entry>
+  
+</feed>
