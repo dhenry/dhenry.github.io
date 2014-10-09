@@ -45,4 +45,4 @@ are visible after a browser refresh.
 
 For tips on editing the .markdown files check out these [instructions](http://daringfireball.net/projects/markdown/syntax).
 
-Once you're happy with your changes then commit and push to publish your content to Github pages.
+Once you're happy with your changes then commit and `git push origin source` to publish your content to Github pages.
