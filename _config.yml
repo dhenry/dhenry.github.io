@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://dhenry.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: A place to put that thing
+# subtitle: A blogging framework for hackers.
+author: Dave
 simple_search: https://www.google.com/search
 description:
 
@@ -39,7 +39,7 @@ rdiscount:
     - autolink
     - footnotes
     - smart
-highlighter: rouge
+highlighter: pygments
 
 paginate: 10          # Posts per page on the blog index
 paginate_path: "posts/:num"  # Directory base for pagination URLs eg. /posts/2/
